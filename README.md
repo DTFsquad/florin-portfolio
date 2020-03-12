@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project toghether with [Bootstrap](https://getbootstrap.com/)
+This is a [Next.js](https://nextjs.org/) project toghether with [Bootstrap](https://getbootstrap.com/),[React](),
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Learn More
 
-T
+
 
 
 ## Deploy on ZEIT Now
