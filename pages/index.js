@@ -4,6 +4,7 @@ import Navbar from '../components/navbar';
 import SideMenu from '../components/sideMenu';
 import Carousel from '../components/carousel';
 import MovieList from '../components/movieList';
+import Footer from '../components/footer';
 
 const Home = () => (
   <div>
@@ -31,31 +32,21 @@ const Home = () => (
         crossOrigin="anonymous"
       ></script>
     </Head>
-
     <Navbar />
-
     <div className="container">
       <div className="row">
         <div className="col-lg-3">
           <SideMenu />
         </div>
-
         <div className="col-lg-9">
           <Carousel />
           <div className="row">
             <MovieList />
-
           </div>
         </div>
       </div>
     </div>
-    <footer className="py-5 bg-dark">
-      <div className="container">
-        <p className="m-0 text-center text-white">
-          Copyright &copy; Your Website 2020
-        </p>
-      </div>
-    </footer>
+      <Footer />
   </div>
 );
 
